@@ -17,7 +17,7 @@ async def on_command_error(ctx, error):
 async def neko(ctx):
     await ctx.send('にゃーん')
 
-    @bot.command()
+@bot.command()
 async def ping(ctx):
     await ctx.send('pong')
 
